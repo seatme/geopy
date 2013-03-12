@@ -21,7 +21,7 @@ except ImportError:
 
 # note: not automated since py3k cannot import geopy.get_version at
 # install-time (since 2to3 has not yet run)
-version = "0.95sm0"
+version = "0.95sm2"
 
 setup(name='geopy',
     version=version,
