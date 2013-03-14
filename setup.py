@@ -21,7 +21,7 @@ except ImportError:
 
 # note: not automated since py3k cannot import geopy.get_version at
 # install-time (since 2to3 has not yet run)
-version = "0.95.custom"
+version = "0.95sm3"
 
 setup(name='geopy',
     version=version,
@@ -29,7 +29,7 @@ setup(name='geopy',
     author='GeoPy Project / Mike Tigas',
     author_email='mike@tig.as', # subject to change
     url='http://code.google.com/p/geopy/',
-    download_url='http://code.google.com/p/geopy/downloads/list',
+    # download_url='http://code.google.com/p/geopy/downloads/list',
     packages=find_packages(),
     install_requires=install_requires,
     test_suite = "geopy.tests.run_tests.all_tests",
